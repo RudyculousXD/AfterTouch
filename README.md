@@ -1,17 +1,18 @@
-# LyricGlass
+# AfterTouch
 
-LyricGlass is an independent macOS music companion for the MacBook notch and Lock Screen. It brings playback controls, album artwork, and timed lyrics into a compact native interface.
+![AfterTouch app icon](Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512.png)
 
-## Features
+AfterTouch is a personal macOS project exploring music controls, album artwork, and synced lyrics for the MacBook notch and Lock Screen.
 
-- Notch player with current artwork, track details, playback controls, and animated audio bars.
-- Lock Screen card with album art, a softly blurred artwork background, and timed lyrics. The active lyric line fills progressively while nearby lines remain visible.
-- Spotify and Apple Music playback support through separate media providers.
-- Optional lyrics lookup through LRCLIB. Lookup sends the current track title, artist, album, and duration; lyric availability depends on the track. The active-line fill estimates timing between synced lines and does not represent word-level timestamps.
-- File tray in the expanded player for up to 12 files or folders, with open, drag-out, share, and remove actions.
-- Settings for Lock Screen placement, artwork treatment, lyrics, and player surface appearance.
+## What it includes
 
-LyricGlass displays the macOS account name using `NSFullUserName()`. Native authentication controls remain owned by macOS; the Lock Screen panel cannot become key or main and does not accept password input.
+- A compact notch player with track details, artwork, playback controls, and audio activity.
+- A Lock Screen music card with album art and timed lyrics.
+- Separate playback providers for Spotify and Apple Music.
+- Optional synced lyrics lookup through LRCLIB.
+- Settings for player appearance, artwork, lyric display, and Lock Screen placement.
+
+Lyrics lookup sends the current track title, artist, album, and duration to LRCLIB. Availability depends on the track. The active-line fill estimates timing between synced lines and does not represent word-level timestamps.
 
 ## Requirements
 
@@ -22,12 +23,8 @@ LyricGlass displays the macOS account name using `NSFullUserName()`. Native auth
 
 ## Build
 
-Open `LyricGlass.xcodeproj` in Xcode and build the `Nocta` scheme. The app's displayed name is LyricGlass. The project is also configured with XcodeGen in `project.yml`.
+Open `LyricGlass.xcodeproj` in Xcode and build the `Nocta` scheme. The Xcode project is also configured with XcodeGen in `project.yml`.
 
-## Project and third-party code
+## License and credits
 
-LyricGlass is an independent project built from the Nocta codebase. It is **not built from the Boring Notch application base**. One source file, `Sources/System/BoringVolumeManager.swift`, adapts Boring Notch's Core Audio system-volume management code. Its upstream UI coordinator was removed. The required attribution and license details are in `NOTICE`; the project is distributed under GPL-3.0-or-later.
-
-## License
-
-GPL-3.0-or-later. See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) for license and third-party attribution details.
+This project is distributed under GPL-3.0-or-later. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for license and third-party attribution details.

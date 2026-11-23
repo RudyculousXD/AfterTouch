@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Build output
+build/
+dist/
+DerivedData/
+*.profraw
+work/
+docs/canopy-analysis-evidence.json
+
+# XcodeGen generates the project from project.yml; only the pbxproj is tracked
+# so GitHub can render it and CI can build without XcodeGen installed.
+Nocta.xcodeproj/*
+!Nocta.xcodeproj/project.pbxproj
+*.xcworkspace
+Nocta.xcodeproj/xcuserdata/
+Nocta.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Spike / scratch
+spike/LockScreenSpike
+spike/spike.log

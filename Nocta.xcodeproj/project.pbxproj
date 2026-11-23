@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0B7897034E577540D50CCF /* ArtworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7262343A08A83354BBE170 /* ArtworkStore.swift */; };
+		0CB97630355EFDF86E184664 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB814B3188E797F291755723 /* LaunchAtLogin.swift */; };
+		10F0C9DC2FE2ACF430F3054B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C585E228355B80D4E73FA9A /* AppModel.swift */; };
+		1C671E7D61230DD15D554A75 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 22BF09E8A2220435AED1D0DA /* KeyboardShortcuts */; };
+		1FC4BC775707481D89E09CD2 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102A8702D080B26CEFE9084F /* LockScreenView.swift */; };
+		251957B89BFCA1A121F55517 /* LockScreenPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B28526468F2051AD46D9599 /* LockScreenPanel.swift */; };
+		2DCD95C2FAF12CBC3EEDCEB9 /* SpotifyWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ABEF4CE895BD944E02179F /* SpotifyWebClient.swift */; };
+		356B15E278793877869873DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7435FF9C59A88C83E80F641 /* Assets.xcassets */; };
+		367FABB88F7A136FDF51D2DF /* SpotifyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273DE8FE3E3CA1ABA907A8BA /* SpotifyProvider.swift */; };
+		39FCBB4EEAE372D184E8EB87 /* VolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB52DEEBDF723EF2D6B017 /* VolumeSlider.swift */; };
+		3BA7051A82A18B6827D6822A /* ScriptingBridgeSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9D64FD2E4C0869B9757E5 /* ScriptingBridgeSupport.swift */; };
+		43DA6C31A4D68F1E44984982 /* SensoryOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC65BC9FF37942CDD4F105 /* SensoryOverlayView.swift */; };
+		44FAA44B5A2B3AD384884DF6 /* LockScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C706A4F70E9C2F1DA7816 /* LockScreenLayout.swift */; };
+		4508887D3D37ACF1F3CE40EC /* GlobalShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B2196A3D4718732588548 /* GlobalShortcuts.swift */; };
+		4D69743325836BB7340004DC /* LockScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BE494BA2D6A92155F9BF6 /* LockScreenPresenter.swift */; };
+		4EFC2078587A6D3D9861F487 /* ScrubberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151F9B968152884BFA5C240D /* ScrubberView.swift */; };
+		51F27A933EE0B52D7FED3E9E /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D26F727B726B6E3C971CAD /* Track.swift */; };
+		5AF3089C34144DBE15BAD9EF /* NoctaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46355DB4CAD8A215EBDAAB42 /* NoctaTests.swift */; };
+		62A7DF2CDDC0AE0CBAA8961A /* NoctaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DE07EB09336EB5A1E6176 /* NoctaApp.swift */; };
+		67194B378D20FC525C7EF63B /* ProviderCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91C68E243B3FBAB9E92F12 /* ProviderCapabilities.swift */; };
+		674EF6787D7F765DCBE0E85C /* LockStateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770364D1FAC0AF6477C9F6A /* LockStateMonitor.swift */; };
+		7C13E673A05D0B004FA8F7C8 /* AppleMusicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E698957135FE28DA4BAA672 /* AppleMusicProvider.swift */; };
+		7D7151B82B0B58125EA3342B /* BoringVolumeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69441F01D47AAD27CB99B1A /* BoringVolumeManager.swift */; };
+		8320EC6089A45DDEA2C29F76 /* SyncedLyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47112B509A8397D616773E4 /* SyncedLyrics.swift */; };
+		8995C60B32E0CA7F75CBA198 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C3E6263628C49FDD98778 /* ArtworkView.swift */; };
+		8B8BEE8C24CBA75F44EFC7A5 /* LrclibClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995EC432AC81AF3CAC83882A /* LrclibClient.swift */; };
+		8BAFF7416E1E1B314271A914 /* TransportControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036AFCF63D8E613815BB0295 /* TransportControls.swift */; };
+		8FCEE3A49C6E06E6554B75AB /* LyricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084548C9B9CC2F4EEF2CA9E9 /* LyricsStore.swift */; };
+		93B0F8793BDB7933C71E7C71 /* ProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FF9E966366F46EE75F9BD /* ProviderRegistry.swift */; };
+		9CF63B69A11016994016CE7D /* MediaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304944CA66A62E221F60F0BF /* MediaProvider.swift */; };
+		A461F1F6D5C8CDD2AEDE1DA8 /* MockProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0178D4B76F4B75995DFAD /* MockProvider.swift */; };
+		B4A5A4B5566E1D835452F922 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C881E77AC365C8E82E642 /* SettingsView.swift */; };
+		BA2941B71E61293D33126CF7 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141FAA428F2CB51B68B92 /* MediaController.swift */; };
+		C3639A887AC5B7BEFC2C4D0D /* PlayerSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FBE221574F36D4DE9ECC4B /* PlayerSnapshot.swift */; };
+		C3A0A1EEE404D5643540F57D /* LockScreenCardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4748C450E1A731670FE969 /* LockScreenCardState.swift */; };
+		C4027D18B96CEF42423EA444 /* SkyLightBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFA0147D184012E01FF331 /* SkyLightBridge.swift */; };
+		CD5C771F4B919580C7748570 /* SkyLightLockScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456CE13A534D966283737F7 /* SkyLightLockScreenPresenter.swift */; };
+		E935FBE1A049617866D3E24F /* SpotifyOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F030D883D6292CC6AEA86BE4 /* SpotifyOAuth.swift */; };
+		ECE422FC55C5FE3A25DCD87A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665E22C855954A98351348A /* Theme.swift */; };
+		F5803CCF709686F473C93722 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA60AEFA62E78CBAD3A36EC /* Preferences.swift */; };
+		FEDD6F7486533E60FF3AD8BF /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C0F6FE17FB3F4523F3B30 /* KeychainStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BAD6C33BCDC9CFA391E3FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1F3A4C8CA75F9C4D89A04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CE494B05B82F4A870EC7A7F;
+			remoteInfo = Nocta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021050254E55C933F7A48C93 /* NoctaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoctaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036AFCF63D8E613815BB0295 /* TransportControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportControls.swift; sourceTree = "<group>"; };
+		084548C9B9CC2F4EEF2CA9E9 /* LyricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsStore.swift; sourceTree = "<group>"; };
+		0B28526468F2051AD46D9599 /* LockScreenPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenPanel.swift; sourceTree = "<group>"; };
+		102A8702D080B26CEFE9084F /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		1456CE13A534D966283737F7 /* SkyLightLockScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyLightLockScreenPresenter.swift; sourceTree = "<group>"; };
+		151F9B968152884BFA5C240D /* ScrubberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrubberView.swift; sourceTree = "<group>"; };
+		1AFC65BC9FF37942CDD4F105 /* SensoryOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryOverlayView.swift; sourceTree = "<group>"; };
+		1C4748C450E1A731670FE969 /* LockScreenCardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenCardState.swift; sourceTree = "<group>"; };
+		1C585E228355B80D4E73FA9A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1E698957135FE28DA4BAA672 /* AppleMusicProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicProvider.swift; sourceTree = "<group>"; };
+		273DE8FE3E3CA1ABA907A8BA /* SpotifyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyProvider.swift; sourceTree = "<group>"; };
+		304944CA66A62E221F60F0BF /* MediaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaProvider.swift; sourceTree = "<group>"; };
+		337C0F6FE17FB3F4523F3B30 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		3665E22C855954A98351348A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3C4DE07EB09336EB5A1E6176 /* NoctaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoctaApp.swift; sourceTree = "<group>"; };
+		3F91C68E243B3FBAB9E92F12 /* ProviderCapabilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderCapabilities.swift; sourceTree = "<group>"; };
+		421A815A7397DB892B37CCF5 /* Nocta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nocta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46355DB4CAD8A215EBDAAB42 /* NoctaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoctaTests.swift; sourceTree = "<group>"; };
+		500BE494BA2D6A92155F9BF6 /* LockScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenPresenter.swift; sourceTree = "<group>"; };
+		5770364D1FAC0AF6477C9F6A /* LockStateMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockStateMonitor.swift; sourceTree = "<group>"; };
+		67F0178D4B76F4B75995DFAD /* MockProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProvider.swift; sourceTree = "<group>"; };
+		724141FAA428F2CB51B68B92 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
+		75FBE221574F36D4DE9ECC4B /* PlayerSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSnapshot.swift; sourceTree = "<group>"; };
+		8E1C881E77AC365C8E82E642 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		93D9D64FD2E4C0869B9757E5 /* ScriptingBridgeSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptingBridgeSupport.swift; sourceTree = "<group>"; };
+		949C3E6263628C49FDD98778 /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+		995EC432AC81AF3CAC83882A /* LrclibClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LrclibClient.swift; sourceTree = "<group>"; };
+		B47112B509A8397D616773E4 /* SyncedLyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncedLyrics.swift; sourceTree = "<group>"; };
+		B5D26F727B726B6E3C971CAD /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		BDAFA0147D184012E01FF331 /* SkyLightBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyLightBridge.swift; sourceTree = "<group>"; };
+		C0FB52DEEBDF723EF2D6B017 /* VolumeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSlider.swift; sourceTree = "<group>"; };
+		C40FF9E966366F46EE75F9BD /* ProviderRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderRegistry.swift; sourceTree = "<group>"; };
+		CE4C706A4F70E9C2F1DA7816 /* LockScreenLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenLayout.swift; sourceTree = "<group>"; };
+		D9ABEF4CE895BD944E02179F /* SpotifyWebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebClient.swift; sourceTree = "<group>"; };
+		E31B2196A3D4718732588548 /* GlobalShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalShortcuts.swift; sourceTree = "<group>"; };
+		E69441F01D47AAD27CB99B1A /* BoringVolumeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringVolumeManager.swift; sourceTree = "<group>"; };
+		F030D883D6292CC6AEA86BE4 /* SpotifyOAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyOAuth.swift; sourceTree = "<group>"; };
+		F7435FF9C59A88C83E80F641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7262343A08A83354BBE170 /* ArtworkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkStore.swift; sourceTree = "<group>"; };
+		FB814B3188E797F291755723 /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		FBA60AEFA62E78CBAD3A36EC /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8EA9A2D13552A3D4899EFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C671E7D61230DD15D554A75 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D1C12E6E1268F3EBAE4532 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1C585E228355B80D4E73FA9A /* AppModel.swift */,
+				3C4DE07EB09336EB5A1E6176 /* NoctaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1C1832DFA0F3E56B92D15D50 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FBA60AEFA62E78CBAD3A36EC /* Preferences.swift */,
+				8E1C881E77AC365C8E82E642 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		39DDC6E6C8CA67FD846F3CD1 /* NoctaTests */ = {
+			isa = PBXGroup;
+			children = (
+				46355DB4CAD8A215EBDAAB42 /* NoctaTests.swift */,
+			);
+			path = NoctaTests;
+			sourceTree = "<group>";
+		};
+		404B13BE2106477711097391 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39DDC6E6C8CA67FD846F3CD1 /* NoctaTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		514BFF0283441E3C7A748B36 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				02D1C12E6E1268F3EBAE4532 /* App */,
+				7A1345410A521DFFDE87C920 /* Core */,
+				9D617F25EC3A8CF60A308BFB /* LockScreen */,
+				A41B698D73018030D2074F71 /* Lyrics */,
+				6DF02CC04F9106ECFB0EBDF3 /* Providers */,
+				1C1832DFA0F3E56B92D15D50 /* Settings */,
+				93D5D48585C9D072111526B9 /* Spotify */,
+				6AF7BEB115F1D22A9A69070E /* System */,
+				7B39CA6386AAA9F8135EB715 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6AF7BEB115F1D22A9A69070E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				E69441F01D47AAD27CB99B1A /* BoringVolumeManager.swift */,
+				E31B2196A3D4718732588548 /* GlobalShortcuts.swift */,
+				FB814B3188E797F291755723 /* LaunchAtLogin.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		6DF02CC04F9106ECFB0EBDF3 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				1E698957135FE28DA4BAA672 /* AppleMusicProvider.swift */,
+				67F0178D4B76F4B75995DFAD /* MockProvider.swift */,
+				93D9D64FD2E4C0869B9757E5 /* ScriptingBridgeSupport.swift */,
+				273DE8FE3E3CA1ABA907A8BA /* SpotifyProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		7A1345410A521DFFDE87C920 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FB7262343A08A83354BBE170 /* ArtworkStore.swift */,
+				724141FAA428F2CB51B68B92 /* MediaController.swift */,
+				304944CA66A62E221F60F0BF /* MediaProvider.swift */,
+				75FBE221574F36D4DE9ECC4B /* PlayerSnapshot.swift */,
+				3F91C68E243B3FBAB9E92F12 /* ProviderCapabilities.swift */,
+				C40FF9E966366F46EE75F9BD /* ProviderRegistry.swift */,
+				B5D26F727B726B6E3C971CAD /* Track.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7B39CA6386AAA9F8135EB715 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				949C3E6263628C49FDD98778 /* ArtworkView.swift */,
+				102A8702D080B26CEFE9084F /* LockScreenView.swift */,
+				151F9B968152884BFA5C240D /* ScrubberView.swift */,
+				1AFC65BC9FF37942CDD4F105 /* SensoryOverlayView.swift */,
+				3665E22C855954A98351348A /* Theme.swift */,
+				036AFCF63D8E613815BB0295 /* TransportControls.swift */,
+				C0FB52DEEBDF723EF2D6B017 /* VolumeSlider.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		93D5D48585C9D072111526B9 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				337C0F6FE17FB3F4523F3B30 /* KeychainStore.swift */,
+				F030D883D6292CC6AEA86BE4 /* SpotifyOAuth.swift */,
+				D9ABEF4CE895BD944E02179F /* SpotifyWebClient.swift */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		98170CE68661E0F2601B333E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7435FF9C59A88C83E80F641 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D617F25EC3A8CF60A308BFB /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1C4748C450E1A731670FE969 /* LockScreenCardState.swift */,
+				CE4C706A4F70E9C2F1DA7816 /* LockScreenLayout.swift */,
+				0B28526468F2051AD46D9599 /* LockScreenPanel.swift */,
+				500BE494BA2D6A92155F9BF6 /* LockScreenPresenter.swift */,
+				5770364D1FAC0AF6477C9F6A /* LockStateMonitor.swift */,
+				BDAFA0147D184012E01FF331 /* SkyLightBridge.swift */,
+				1456CE13A534D966283737F7 /* SkyLightLockScreenPresenter.swift */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		A41B698D73018030D2074F71 /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				995EC432AC81AF3CAC83882A /* LrclibClient.swift */,
+				084548C9B9CC2F4EEF2CA9E9 /* LyricsStore.swift */,
+				B47112B509A8397D616773E4 /* SyncedLyrics.swift */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		B681FB570FC2BEF9C99171DC = {
+			isa = PBXGroup;
+			children = (
+				98170CE68661E0F2601B333E /* Resources */,
+				514BFF0283441E3C7A748B36 /* Sources */,
+				404B13BE2106477711097391 /* Tests */,
+				F49E13B5EBA130514217079F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49E13B5EBA130514217079F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421A815A7397DB892B37CCF5 /* Nocta.app */,
+				021050254E55C933F7A48C93 /* NoctaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CE494B05B82F4A870EC7A7F /* Nocta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C99FC02E531DBC5075A8E /* Build configuration list for PBXNativeTarget "Nocta" */;
+			buildPhases = (
+				991614FD7202E958A65D8EAE /* Sources */,
+				EA502486E7362E5659248A72 /* Resources */,
+				A8EA9A2D13552A3D4899EFAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nocta;
+			packageProductDependencies = (
+				22BF09E8A2220435AED1D0DA /* KeyboardShortcuts */,
+			);
+			productName = Nocta;
+			productReference = 421A815A7397DB892B37CCF5 /* Nocta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D31B36DCCD5497AC432D32D /* NoctaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADCCF3EFBDA9E27B4B76801 /* Build configuration list for PBXNativeTarget "NoctaTests" */;
+			buildPhases = (
+				5B7B85C22A53986B49EB9A68 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B151860D2A22AC8D612577 /* PBXTargetDependency */,
+			);
+			name = NoctaTests;
+			packageProductDependencies = (
+			);
+			productName = NoctaTests;
+			productReference = 021050254E55C933F7A48C93 /* NoctaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1F3A4C8CA75F9C4D89A04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0CE494B05B82F4A870EC7A7F = {
+						ProvisioningStyle = Manual;
+					};
+					2D31B36DCCD5497AC432D32D = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 89EDAF0AE0D34B0FFB068D58 /* Build configuration list for PBXProject "Nocta" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B681FB570FC2BEF9C99171DC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3D73A79459F32985E44424C0 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F49E13B5EBA130514217079F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CE494B05B82F4A870EC7A7F /* Nocta */,
+				2D31B36DCCD5497AC432D32D /* NoctaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA502486E7362E5659248A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356B15E278793877869873DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7B85C22A53986B49EB9A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF3089C34144DBE15BAD9EF /* NoctaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991614FD7202E958A65D8EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F0C9DC2FE2ACF430F3054B /* AppModel.swift in Sources */,
+				7C13E673A05D0B004FA8F7C8 /* AppleMusicProvider.swift in Sources */,
+				0A0B7897034E577540D50CCF /* ArtworkStore.swift in Sources */,
+				8995C60B32E0CA7F75CBA198 /* ArtworkView.swift in Sources */,
+				7D7151B82B0B58125EA3342B /* BoringVolumeManager.swift in Sources */,
+				4508887D3D37ACF1F3CE40EC /* GlobalShortcuts.swift in Sources */,
+				FEDD6F7486533E60FF3AD8BF /* KeychainStore.swift in Sources */,
+				0CB97630355EFDF86E184664 /* LaunchAtLogin.swift in Sources */,
+				C3A0A1EEE404D5643540F57D /* LockScreenCardState.swift in Sources */,
+				44FAA44B5A2B3AD384884DF6 /* LockScreenLayout.swift in Sources */,
+				251957B89BFCA1A121F55517 /* LockScreenPanel.swift in Sources */,
+				4D69743325836BB7340004DC /* LockScreenPresenter.swift in Sources */,
+				1FC4BC775707481D89E09CD2 /* LockScreenView.swift in Sources */,
+				674EF6787D7F765DCBE0E85C /* LockStateMonitor.swift in Sources */,
+				8B8BEE8C24CBA75F44EFC7A5 /* LrclibClient.swift in Sources */,
+				8FCEE3A49C6E06E6554B75AB /* LyricsStore.swift in Sources */,
+				BA2941B71E61293D33126CF7 /* MediaController.swift in Sources */,
+				9CF63B69A11016994016CE7D /* MediaProvider.swift in Sources */,
+				A461F1F6D5C8CDD2AEDE1DA8 /* MockProvider.swift in Sources */,
+				62A7DF2CDDC0AE0CBAA8961A /* NoctaApp.swift in Sources */,
+				C3639A887AC5B7BEFC2C4D0D /* PlayerSnapshot.swift in Sources */,
+				F5803CCF709686F473C93722 /* Preferences.swift in Sources */,
+				67194B378D20FC525C7EF63B /* ProviderCapabilities.swift in Sources */,
+				93B0F8793BDB7933C71E7C71 /* ProviderRegistry.swift in Sources */,
+				3BA7051A82A18B6827D6822A /* ScriptingBridgeSupport.swift in Sources */,
+				4EFC2078587A6D3D9861F487 /* ScrubberView.swift in Sources */,
+				43DA6C31A4D68F1E44984982 /* SensoryOverlayView.swift in Sources */,
+				B4A5A4B5566E1D835452F922 /* SettingsView.swift in Sources */,
+				C4027D18B96CEF42423EA444 /* SkyLightBridge.swift in Sources */,
+				CD5C771F4B919580C7748570 /* SkyLightLockScreenPresenter.swift in Sources */,
+				E935FBE1A049617866D3E24F /* SpotifyOAuth.swift in Sources */,
+				367FABB88F7A136FDF51D2DF /* SpotifyProvider.swift in Sources */,
+				2DCD95C2FAF12CBC3EEDCEB9 /* SpotifyWebClient.swift in Sources */,
+				8320EC6089A45DDEA2C29F76 /* SyncedLyrics.swift in Sources */,
+				ECE422FC55C5FE3A25DCD87A /* Theme.swift in Sources */,
+				51F27A933EE0B52D7FED3E9E /* Track.swift in Sources */,
+				8BAFF7416E1E1B314271A914 /* TransportControls.swift in Sources */,
+				39FCBB4EEAE372D184E8EB87 /* VolumeSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B151860D2A22AC8D612577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CE494B05B82F4A870EC7A7F /* Nocta */;
+			targetProxy = 2BAD6C33BCDC9CFA391E3FA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35D690E730865A36A2BBB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/Nocta.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nocta.Nocta;
+				PRODUCT_NAME = Nocta;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83DF212C99230924CCAD708B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B16B24ADD0ED454F2E4F85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nocta.NoctaTests;
+				PRODUCT_NAME = NoctaTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nocta.app/Contents/MacOS/Nocta";
+			};
+			name = Debug;
+		};
+		9E8A2AF3626B9743E0D9EFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nocta.NoctaTests;
+				PRODUCT_NAME = NoctaTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nocta.app/Contents/MacOS/Nocta";
+			};
+			name = Release;
+		};
+		B5965B210C9946CF878041A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/Nocta.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nocta.Nocta;
+				PRODUCT_NAME = Nocta;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E14AE8DC03E9639A1D2C40AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054C99FC02E531DBC5075A8E /* Build configuration list for PBXNativeTarget "Nocta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D690E730865A36A2BBB3CA /* Debug */,
+				B5965B210C9946CF878041A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89EDAF0AE0D34B0FFB068D58 /* Build configuration list for PBXProject "Nocta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DF212C99230924CCAD708B /* Debug */,
+				E14AE8DC03E9639A1D2C40AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AADCCF3EFBDA9E27B4B76801 /* Build configuration list for PBXNativeTarget "NoctaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B16B24ADD0ED454F2E4F85E /* Debug */,
+				9E8A2AF3626B9743E0D9EFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D73A79459F32985E44424C0 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22BF09E8A2220435AED1D0DA /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D73A79459F32985E44424C0 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F1F3A4C8CA75F9C4D89A04E /* Project object */;
+}

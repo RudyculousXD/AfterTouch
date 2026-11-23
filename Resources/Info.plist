@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<!-- Names the app icon in Assets.xcassets. Required because the Info.plist is
+	     hand-maintained rather than generated, so actool does not inject it. -->
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LyricGlass</string>
+	<!-- ASWebAuthenticationSession names the app from CFBundleDisplayName in its consent
+	     prompt, and shows "(null)" when it is absent. Required, not cosmetic. -->
+	<key>CFBundleDisplayName</key>
+	<string>LyricGlass</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 aNasiusA. MIT Licensed.</string>
+	<!-- Menu-bar utility: no Dock icon by default. -->
+	<key>LSUIElement</key>
+	<true/>
+	<!-- Shown verbatim in the Automation permission prompt. -->
+	<!-- OAuth callback for the optional Spotify Web API sign-in (PKCE). -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>app.nocta.spotify-callback</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>nocta</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>LyricGlass needs permission to control Spotify and Music so it can show what is playing and run the play, pause, skip, seek and volume controls. It only sends playback commands and never reads your library or personal data.</string>
+</dict>
+</plist>

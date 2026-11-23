@@ -1,0 +1,69 @@
+Nocta
+Copyright (c) 2026 aNasiusA
+
+LyricGlass is released under GPL-3.0-or-later (see the LICENSE file). This NOTICE records the
+third-party components Nocta includes or derives from, and the attribution their licences
+require.
+
+--------------------------------------------------------------------------------
+SkyLightWindow — https://github.com/Lakr233/SkyLightWindow
+Copyright (c) 2025 Lakr Aream
+Licensed under the MIT License.
+
+Nocta's `SkyLightBridge` is an independent implementation whose approach — creating a
+SkyLight space, raising its absolute level above the lock screen shield, and moving a window
+into it — was learned from SkyLightWindow. The SkyLight C function signatures it uses are
+factual API declarations. No source was copied verbatim.
+
+Nocta deliberately diverges from SkyLightWindow on one point: its lock screen panel is a
+non-activating NSPanel that can never become key or main, so it cannot receive keyboard input.
+
+--------------------------------------------------------------------------------
+KeyboardShortcuts — https://github.com/sindresorhus/KeyboardShortcuts
+Copyright (c) Sindre Sorhus
+Licensed under the MIT License. Used as an unmodified Swift Package dependency.
+
+--------------------------------------------------------------------------------
+Boring Notch — https://github.com/TheBoredTeam/boring.notch
+Copyright (c) 2025 JeanLouis
+Licensed under GPL-3.0.
+
+`Sources/System/BoringVolumeManager.swift` is adapted from Boring Notch's `VolumeManager.swift`.
+The upstream manager's UI coordinator calls were removed; the Core Audio system-volume
+management code is retained and adapted for LyricGlass. The upstream project’s GPL-3.0 license
+is included in `LICENSE`, and LyricGlass is distributed under GPL-3.0-or-later.
+
+--------------------------------------------------------------------------------
+
+Atoll (https://github.com/Ebullioscopic/Atoll) is licensed GPL-3.0 and AtollExtensionKit
+(https://github.com/Ebullioscopic/AtollExtensionKit) is LGPL-3.0. Both were studied to
+understand the problem space, but NO code from either was copied into this project, because
+doing so would require LyricGlass to adopt those licences. Only high-level
+architectural ideas were taken (separating window management from view content; combining
+distributed notifications with polling for lock detection). Ideas are not copyrightable;
+code is.
+
+--------------------------------------------------------------------------------
+THE MIT LICENSE (THIRD-PARTY COMPONENTS)
+
+The following licence text applies to SkyLightWindow and to KeyboardShortcuts, in each case
+with the copyright notice recorded for that project above. Nocta itself is under the same
+licence. LyricGlass itself is licensed under GPL-3.0-or-later; see LICENSE.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
